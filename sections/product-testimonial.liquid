@@ -116,7 +116,12 @@
                       <span style="position: absolute; top: -20px; left: -10px; font-size: 80px; color: #ccc; font-family: Georgia, serif;"
                         >&#x201C;</span
                       >
-                      {{ product.metafields.custom.testimonial_text }}
+                      {%- if product != blank -%}
+                        {{ product.metafields.custom.testimonial_text }}
+                      {%- else -%}
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                      {%- endif -%}
                       <span style="position: absolute; bottom: -50px; right: 0; font-size: 80px; color: #ccc; font-family: Georgia, serif;"
                         >&#x201D;</span
                       >
