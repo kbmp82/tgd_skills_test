@@ -409,6 +409,9 @@
         },
         "options__5": {
           "label": "Extra extra large"
+        },
+        "options__6": {
+          "label": "Regular"
         }
       },
       "image_shape": {
@@ -2627,16 +2630,18 @@
       "name": "Customer Testimonial",
       "settings": {
         "product": {
-          "label": "Select Product"
+          "label": "Select product",
+          "checkbox_label": "Show product title",
+          "title_size_label": "Title text size"
         },
         "title": {
           "label": "Heading",
-          "text": "Heading Text"
+          "text": "Heading text"
         },
         "testimonial": {
           "author": "Author",
-          "text": "Testimonial Text",
-          "image": "Author Avatar"
+          "text": "Testimonial text",
+          "image": "Author avatar"
         }
       }
     },
